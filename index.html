@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+  <script type="module" crossorigin src="/assets/index.1b92c157.js"></script>
+    <link rel="stylesheet" href="./assets/index.c2d20090.css">
+  </head>
+<body class="bg-primary w-full h-full" >
+    <div class="w-full ">
+        <div class="w-4/5 mx-auto mt-16 h-96 md:w-2/5" >
+            <!-- this is the header part -->
+            <div class="grid grid-cols-2 grid-rows-2">
+                <div>
+                    <div>
+                        <h1 class="text-white font-bold">Calc</h1>
+                    </div>
+                </div>
+               
+            </div>
+            <!-- this is to design the input box -->
+            <div>
+                <div> 
+                    <input type="button" class="w-full h-16 text-4xl mb-4 md:txt-6xl bg-secondary rounded-lg text-white text-right" id="input" >
+                </div>
+                
+            </div>
+            <!-- designing the numpads -->
+            <div>
+                <div class="grid grid-crows-4 gap-2 w-full mb-5 bg-secondary h-auto">
+                    <!-- This is the first row -->
+                    <div class="grid grid-cols-4 gap-0 mt-3 w-fullborder-2 border-gray-300">
+                        
+                        <div class="w-full">
+                            <div class="w-full">
+                         <input type="button" value="7" onclick="display('7')" class=" btn">
+                         </div>
+                        </div>
+                        <div class="w-full">
+                            <div class="w-full">
+                                <input type="button" value="8" onclick="display('8')" class="btn">
+                                </div>
+                        </div>
+                        <div class="w-full">
+                            <div class="w-full">
+                                <input type="button" value="9" onclick="display('9')" class="btn">
+                            </div>
+                        </div>
+                        <div class="w-full"> 
+                            <div class="w-full">
+                                <input type="button" value="DEL" onclick="del()" class="btn bg-third">
+                                </div>
+                        </div>
+                    </div>
+                    <!-- This is 2nd row -->
+                    <div class="grid grid-cols-4 bg-secondary">
+                        
+                        <div class="w-full">
+                            <div class="w-full">
+                         <input type="button" value="4" onclick="display('4')" class="btn">
+                         </div>
+                        </div>
+                        <div class="w-full">
+                            <div class="w-full">
+                                <input type="button" value="5" onclick="display('5')" class="btn">
+                                </div>
+                        </div>
+                        <div class="w-full">
+                            <div class="w-full">
+                                <input type="button" value="6" onclick="display('6')" class="btn">
+                                </div>
+                        </div>
+                        <div class="w-full">
+                            <div class="w-full">
+                                <input type="button" value="+" onclick="display('+')" class="btn">
+                                </div>
+                        </div>
+                    </div>
+                    <!-- This is third row -->
+                    <div class="grid grid-cols-4">
+                        
+                        <div class="w-full">
+                            <div class="w-full">
+                         <input type="button" value="1" onclick="display('1')" class="btn">
+                         </div>
+                        </div>
+                        <div class="w-full">
+                            <div class="w-full">
+                                <input type="button" value="2" onclick="display('2')" class="btn">
+                                </div>
+                        </div>
+                        <div class="w-full">
+                            <div class="w-full">
+                                <input type="button" value="3" onclick="display('3')" class="btn">
+                                </div>
+                        </div>
+                        <div class="w-full">
+                            <div class="w-full">
+                                <input type="button" value="-" onclick="display('-')" class="btn">
+                                </div>
+                        </div>
+                    </div>
+                    <!-- This is the fourth row -->
+                    <div class="grid grid-cols-4 bg">
+                        
+                        <div class="w-full">
+                            <div class="w-full">
+                         <input type="button" value="." onclick="display('.')" class="btn">
+                         </div>
+                        </div >
+                        <div class="w-full">
+                            <div class="w-full">
+                                <input type="button" value="0" onclick="display('0')" class="btn">
+                                </div>
+                        </div>
+                        <div class="w-full">
+                            <div class="w-full">
+                                <input type="button" value="/" onclick="display('/')" class="btn">
+                                </div>
+                        </div>
+                        <div class="w-full">
+                            <div class="w-full">
+                                <input type="button" value="X" onclick="display('*')" class="btn">
+                                </div>
+                        </div>
+                    </div>
+                        
+                    
+                
+                  <div class="grid grid-cols-2 mb-5 ">
+                    <div class="w-full">
+                        <div class="w-3/4 mx-auto" >
+                            <input type="button" value="RESET" onclick="clr()" id="re" class="w-full h-10 bg-third rounded-lg hover:bg-green-400 hover:text-white">
+                        </div>
+                    </div>
+                    <div class="w-full">
+                        <div class="w-3/4 mx-auto ">
+                            <input type="button" value="=" onclick="calc()" class="w-full h-10 bg-red-600 rounded-lg hover:bg-green-400 hover:text-white">
+                        </div>
+                    </div>
+                    </div>
+                 </div>
+             </div>
+            <!-- this is to design calculation part -->
+           
+        </div>
+    </div>
+
+    <script src="./assets/index.1b92c157.js"></script>
+</body>
+</html>
